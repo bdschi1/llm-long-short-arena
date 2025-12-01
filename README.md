@@ -66,3 +66,22 @@ Future iterations may add:
 - Multiple models and agent frameworks.
 - Automated scoring scripts.
 - More sectors (e.g., healthcare, tech) and more complex portfolio cases.
+
+---
+
+## Future directions (placeholders)
+
+Planned extensions for this project include:
+
+- **Continuous / Bayesian conviction tracking** – moving from discrete 1–5
+  scores to a continuous conviction scale that updates as new information,
+  price moves, and portfolio risk contributions change. The idea is to treat
+  conviction as a prior that gets updated over time and translates directly
+  into position size and risk units.
+- **Risk-budget-aware sizing models** – explicitly linking conviction to a
+  finite risk budget in a long/short book, where gross, net, factor, and
+  idiosyncratic contributions are all expressed in risk units rather than
+  notional exposure.
+- **Event-path-based analytics** – modeling event paths (earnings, clinical
+  readouts, product launches, regulatory decisions, etc.) and tracking how
+  conviction and sizing change along each path as new information arrives.
