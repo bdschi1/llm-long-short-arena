@@ -8,6 +8,10 @@ The goal is not to auto-trade, but to see whether models can produce
 decision-useful, risk-aware long and short theses that resemble what a
 professional investor would write.
 
+This repo evaluates reasoning quality and how each side handles drivers, risks, 
+sizing, and “what would change your mind/conviction?” 
+
+That’s a very natural foundation for pairwise preference data and “LLM-as-a-judge” style evaluations.
 ---
 
 ## Concept
