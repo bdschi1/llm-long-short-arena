@@ -1,81 +1,137 @@
 # ========================================================================
-# OS-specific junk
+# OS-SPECIFIC METADATA
 # ========================================================================
 .DS_Store
 */.DS_Store
+.AppleDouble
+.LSOverride
 Thumbs.db
+Desktop.ini
 
 # ========================================================================
-# Python caches and artifacts
+# PYTHON CORE
 # ========================================================================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
 *.py[cod]
-*.egg-info/
-*.egg
+*$py.class
+
+# C-extensions
 *.so
 
 # ========================================================================
-# Virtual environments
+# VIRTUAL ENVIRONMENTS
 # ========================================================================
 .venv/
 venv/
 env/
 ENV/
 *.env
+pip-wheel-metadata/
+
+# Poetry / Pipenv / PDM
+.poetry/
+Pipfile.lock
+poetry.lock
+.pdm-python
+.pdm-build/
+
+# pyenv
+.python-version
 
 # ========================================================================
-# Jupyter Notebook artifacts
+# BUILD / PACKAGING
+# ========================================================================
+build/
+dist/
+wheels/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+develop-eggs/
+parts/
+sdist/
+var/
+share/python-wheels/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ========================================================================
+# JUPYTER NOTEBOOKS
 # ========================================================================
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
+.jupyter/
 
 # ========================================================================
-# Project-specific ignores for llm-long-short-arena
+# UNIT TEST / COVERAGE
 # ========================================================================
-results/
-arena_runs/
-arena_outputs/
-eval_logs/
-logs/
-tmp/
-temp/
-scratch/
-*.log
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+*.py.cover
 
-# Model outputs or example artifacts
-examples/
-example_outputs/
-model_outputs/
-arena_tmp/
-arena_cache/
-
-# Data files (local-only)
+# ========================================================================
+# DATA / ML / LLM WORKFLOWS
+# ========================================================================
 data/
 datasets/
 */data/
+*/datasets/
+
 *.csv
+*.tsv
 *.jsonl
 *.parquet
 *.pickle
 *.pkl
+*.feather
+*.h5
+*.hdf5
+
+# Model artifacts
+models/
+checkpoints/
+artifacts/
+model_outputs/
+logs/
+*.log
+
+# Evaluation caches
+evals/cache/
+evals/.cache/
+evals/tmp/
+*/cache/
+*/.cache/
+*/tmp/
+
+# Temp files
+tmp/
+temp/
+scratch/
+*.tmp
 
 # ========================================================================
-# Build / packaging
-# ========================================================================
-build/
-dist/
-.eggs/
-wheels/
-pip-wheel-metadata/
-
-# ========================================================================
-# IDE / Editor settings
+# IDE / EDITOR SETTINGS
 # ========================================================================
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+.#*
+
+# ========================================================================
+# PROJECT-SPECIFIC EXAMPLES
+# ========================================================================
+example_*.txt
+examples/
 
