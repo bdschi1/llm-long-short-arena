@@ -1,0 +1,8 @@
+streamlit
+pymupdf
+python-dotenv
+openai
+anthropic
+google-generativeai
+# pypdf is used for some fallback reading
+pypdf
