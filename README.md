@@ -18,6 +18,6 @@ An autonomous multi-agent system that simulates an institutional investment deba
 
 ### 2. Installation
 ```bash
-git clone [https://github.com/YOUR_USERNAME/llm-long-short-arena.git](https://github.com/YOUR_USERNAME/llm-long-short-arena.git)
+git clone [https://github.com/bdschi1/llm-long-short-arena.git](https://github.com/bdschi1/llm-long-short-arena.git)
 cd llm-long-short-arena
 pip install -r requirements.txt
